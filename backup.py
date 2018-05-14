@@ -6,7 +6,7 @@ import teste
 today = str (date.today())
 print (today)
 
-pastadestino = "/hdext/"
+pastadestino = "f:/"
 novapastadestino = input ('diretorio destino:')
 if novapastadestino != "":
     pastadestino = novapastadestino
@@ -16,3 +16,5 @@ if  os.path.exists (pastadestino+today):
 else:
     os.makedirs (pastadestino+today)
     print ("Criando Pasta")
+
+ 
